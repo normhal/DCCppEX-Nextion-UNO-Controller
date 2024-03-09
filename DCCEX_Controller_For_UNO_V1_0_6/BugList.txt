@@ -1,0 +1,5 @@
+Bugs Reported for the DCCEX Controller Sketch Vesion 1.0.6
+
+First release on 27 November 2023
+
+- Routes not being Activated - SlotCStart -> SlotBStart

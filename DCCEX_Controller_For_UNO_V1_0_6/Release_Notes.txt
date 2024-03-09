@@ -1,0 +1,16 @@
+Release Notes for the DCCEX Controller V1.0.x
+
+Starting with Version 1.0.4 all subsequent additions and/or bug fixes will be listed here
+
+These notes will be primarily for the Arduino program, but will also include records
+of modifications to the 3 HMIs supported by the Sketch
+
+17 November 2023
+HMIs
+- Nextion 5.0in HMI had an error on the Throttle Page for the touch event of object "m5"
+  which yielded the slot inoperable
+
+Sketch
+- A clean up of WiFi connection information messages was done to make them more accurate
+- WiFi State is now updated when WiFi Page is called
+- Routes not being Activated fixed - SlotCStart changed to SlotBStart
