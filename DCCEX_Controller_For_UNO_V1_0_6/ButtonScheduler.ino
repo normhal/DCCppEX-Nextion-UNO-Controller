@@ -168,6 +168,7 @@ void powerOFFButton()
 */
 void menuPage(uint8_t button)
 {
+  nextionPage = MenuPage;
   LocosReturnPage = MenuPage;
   AccReturnPage = MenuPage;
   ProgReturnPage = MenuPage;
